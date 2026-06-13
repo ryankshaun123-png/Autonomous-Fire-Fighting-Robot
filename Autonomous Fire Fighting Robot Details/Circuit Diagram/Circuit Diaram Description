@@ -1,0 +1,18 @@
+Circuit Diagram Description
+The circuit diagram illustrates the electrical connections of the Arduino-based Fire Fighting
+Robot. The Arduino Uno acts as the central controller and is connected to a 5-channel
+flame sensor module, an L298N motor driver module, and a relay module. The flame
+sensor continuously monitors the surroundings and sends fire detection signals to the Arduino
+through its digital output pins.
+The Arduino processes these signals and controls the movement of the robot by sending
+commands to the L298N motor driver, which drives the four DC motors connected to the
+wheels. This enables the robot to move toward the detected fire source. The motor driver
+receives power from the battery pack and supplies the required current to the motors.
+A relay module is connected to the Arduino to control the water pump. When a flame is
+detected, the Arduino activates the relay, which switches on the water pump. The pump then
+sprays water through the nozzle to extinguish the fire. The entire system is powered by an
+11.1V Li-ion battery pack, which provides power to the motor driver, water pump, and
+control circuitry.
+The circuit integrates sensing, motion control, and fire extinguishing functions, allowing the
+robot to detect fire, navigate toward it, and automatically suppress it with minimal human
+intervention
